@@ -1,0 +1,25 @@
+/* $accentColor = #3eaf7c // 主题色 */
+
+#app .navbar .home-link span:before{
+    display: inline-block;
+    content:'';
+    width: 3rem;
+    height:2.4rem;
+    background:url('../img/logo.png') no-repeat;
+    background-size:100% 100%;
+    vertical-align: middle;
+}
+.page .page-title{
+	max-width:840px !important;
+}
+.bilibili-player-video-recommend {
+	display:none !important;
+}
+.bilibili-player-video-recommend-container {
+	display:none !important;
+}
+/* 放开评论
+.valine-wrapper {
+	display:none !important;
+}
+*/
