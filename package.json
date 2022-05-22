@@ -3,6 +3,7 @@
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
+    "deployee": "bash deploy_gitee.sh"
   },
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
@@ -30,7 +31,7 @@
     "whatwg-fetch": "3.0.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.5.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.2",
     "vuepress-plugin-auto-sidebar": "^1.4.1",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-dynamic-title": "^1.0.0"

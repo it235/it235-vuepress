@@ -43,6 +43,7 @@ function vueSidebarShow() {
 	
 		loadSidebar(_hrefs);
 	}
+
 }
 
 function loadSidebar(hrefTxt) {	
@@ -51,6 +52,7 @@ function loadSidebar(hrefTxt) {
 	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
 	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();
 }
+
 
 setTimeout("vueSidebarShow()",1000)
 
