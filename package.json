@@ -2,7 +2,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
     "deployee": "bash deploy_gitee.sh"
   },
   "dependencies": {
